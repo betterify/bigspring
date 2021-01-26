@@ -1,17 +1,11 @@
 ---
-title: "Adversus is a web-based dialer and practical CRM solution"
-date: 2020-04-18T10:07:21+06:00
-# post image
-image: exampleSite/static/images/blog/post-1.jpg
-# post type (regular/featured)
-type: "featured"
-# meta description
-description: "This is meta description"
-# post draft
-draft: false
+title: Adversus is a web-based dialer and practical CRM solution
+date: 2020-04-18T10:07:21.000+06:00
+image: "/images/blog/post-5.jpg"
+type: featured
+description: This is meta description
+
 ---
-
-
 #### Heading example
 
 Here is example of hedings. You can use this heading by following markdownify rules. For example: use `#` for heading 1 and use `######` for heading 6.

@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: "Adversus is a web-based dialer and practical CRM solution"
 date: 2020-04-18T10:07:21+06:00
 # post image
@@ -18,7 +17,7 @@ date: 2020-04-18T10:07:21.000+06:00
 image: "/images/blog/post-5.jpg"
 type: featured
 description: This is meta description
->>>>>>> d2507f92fac2531f6135ee4c39d885045311b902
+
 
 ---
 #### Heading example

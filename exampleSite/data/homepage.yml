@@ -33,40 +33,34 @@ feature:
 service:
   enable: true
   service_item:
-  - title: It is the most advanced digital marketing and it company.
+  - title: It is the most advanced web design digital marketing agency.
     images:
     - images/service-1.png
     - images/service-2.png
     - images/service-3.png
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-      eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
-      sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
-      tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
-      consquat.
+    content: It is the most professional web design and digital marketing agency.
+      We are well equiped to tranform your digital journey and digital footprint to
+      its ultimate web experience.
     button:
       enable: true
       label: Check it out
       link: "#"
-  - title: It is a privately owned Information and cyber security company
+  - title: It is a privately owned information and cyber security digital agency.
     images:
     - images/service-1.png
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-      eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
-      sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
-      tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
-      consquat.
+    content: We are a small group of professional tech people. We are passionate about
+      newest and open source technologies and trends. We are equiped to take care
+      of your privacy and data. Your data is safe and secure with us.
     button:
       enable: true
       label: Check it out
       link: "#"
-  - title: It’s a team of experienced and skilled people with distributions
+  - title: It’s a team of experienced and skilled people in latest technologies.
     images:
     - images/service-2.png
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-      eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
-      sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
-      tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
-      consquat.
+    content: Our team is well versed and well equiped with the latest tools and technologies
+      in the web development and digital marketing space. Our whole objective is to
+      give our clients best of the class digital experience.
     button:
       enable: true
       label: Check it out

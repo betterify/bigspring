@@ -83,6 +83,10 @@ link = "plugins/slick/slick.min.js"
 enable = false
 preloader = ""
 [[params.social]]
+icon = "ti-youtube"
+link = "#"
+title = "YouTube"
+[[params.social]]
 icon = "ti-facebook"
 link = "https://www.facebook.com/avadhoot.me/"
 title = "facebook"

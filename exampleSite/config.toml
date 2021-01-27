@@ -84,7 +84,7 @@ enable = false
 preloader = ""
 [[params.social]]
 icon = "ti-youtube"
-link = "#"
+link = "https://www.youtube.com/c/AvadhootDandekar"
 title = "YouTube"
 [[params.social]]
 icon = "ti-facebook"

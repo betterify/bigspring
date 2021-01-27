@@ -10,7 +10,7 @@ banner:
     link: contact
 feature:
   enable: true
-  title: Something You Need To Know
+  title: You Need To Know Our Speciality
   feature_item:
   - name: Clean Code
     icon: ti-pulse
@@ -18,7 +18,7 @@ feature:
   - name: Object Oriented
     icon: ti-package
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
-  - name: 24h Service
+  - name: 24/7 Service
     icon: ti-alarm-clock
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
   - name: Value For Money

@@ -55,7 +55,7 @@ weight = 4
 [params]
 author = "Themefisher"
 contact_form_action = "#"
-copyright = "© [Avadhoot Dandekar](https://www.avadhoot.me/) Designed By [Themefisher](https://themefisher.com/) Developed By [Gethugothemes](https://gethugothemes.com/) ✨ Proudly deployed on [Netlify](https://www.netlify.com/)"
+copyright = "© [<b>Avadhoot Dandekar</b>](https://www.avadhoot.me/) Designed By [Themefisher](https://themefisher.com/) Developed By [Gethugothemes](https://gethugothemes.com/) ✨ Proudly deployed on [<b>Netlify</b>](https://www.netlify.com/)"
 description = "This is meta description"
 footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
 footer_menu_left = "Company"

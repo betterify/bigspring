@@ -12,24 +12,24 @@ feature:
   enable: true
   title: You Need To Know Our Speciality
   feature_item:
-  - name: Clean Code
+  - name: Open Source
     icon: ti-pulse
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
-  - name: Object Oriented
-    icon: ti-package
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+    content: We make use of open source software and technologies.
+  - name: Mobile Responsive
+    icon: ti-mobile
+    content: We work on newest mobile optimized and responsive technologies.
   - name: 24/7 Service
     icon: ti-alarm-clock
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+    content: We offer 24/7 and 365 days services and support.
   - name: Value For Money
     icon: ti-credit-card
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+    content: We offer best of the class value for money services.
   - name: Faster Response
     icon: ti-headphone-alt
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+    content: We follow unique workflows and give faster response in all our services.
   - name: Cloud Support
     icon: ti-cloud-up
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+    content: We offer cloud support in all our services and support.
 service:
   enable: true
   service_item:

@@ -10,4 +10,8 @@ This is a new post I am trying from Netlify CMS. Earlier the image display was a
 
 I am also embedding a Hugo Tweet to see whether it works!!
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Reminder: This Twitter account is not actively maintained for questions. Please post all questions on <a href="https://t.co/yAzbBojxaU">https://t.co/yAzbBojxaU</a> <a href="https://twitter.com/hashtag/gohugo?src=hash&amp;ref_src=twsrc%5Etfw">#gohugo</a></p>&mdash; GoHugo.io (@GoHugoIO) <a href="https://twitter.com/GoHugoIO/status/917359331535966209?ref_src=twsrc%5Etfw">October 9, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Reminder: This Twitter account is not actively maintained for questions. Please post all questions on <a href="https://t.co/yAzbBojxaU">https://t.co/yAzbBojxaU</a> <a href="https://twitter.com/hashtag/gohugo?src=hash&ref_src=twsrc%5Etfw">#gohugo</a></p>— GoHugo.io (@GoHugoIO) <a href="https://twitter.com/GoHugoIO/status/917359331535966209?ref_src=twsrc%5Etfw">October 9, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+{{< youtube w7Ft2ymGmfc >}}
+
+<iframe src="[https://docs.google.com/forms/d/e/](https://docs.google.com/forms/d/e/ "https://docs.google.com/forms/d/e/"){{ .Get "src" }}/viewform?embedded=true" width="{{ .Get "width" }}" height="{{ .Get "height" }}" frameborder="0" marginheight="0" marginwidth="0">{{ .Get "alt" }}</iframe> 

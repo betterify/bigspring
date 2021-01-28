@@ -6,6 +6,9 @@ publish_mode: editorial_workflow
 
 media_folder: exampleSite/static/images # Media files will be stored in the repo under images/uploads
 public_folder: /images # The src attribute for uploaded media will begin with /images/uploads
+media_libraray:
+    config: 
+       multiple: true
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog

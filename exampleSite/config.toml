@@ -102,6 +102,7 @@ title = "GitHub"
 icon = "ti-linkedin"
 link = "https://in.linkedin.com/in/avadhootdandekar2010"
 title = "linkedin"
+
 [outputFormats.Algolia]
 baseName = "algolia"
 isPlainText = true

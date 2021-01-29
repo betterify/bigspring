@@ -1,4 +1,4 @@
-baseURL = "http://examplesite.org/"
+baseURL = "https://bigspring.netlify.app/"
 disqusShortname = ""
 googleAnalytics = ""
 languageCode = "en-us"
@@ -102,3 +102,15 @@ title = "GitHub"
 icon = "ti-linkedin"
 link = "https://in.linkedin.com/in/avadhootdandekar2010"
 title = "linkedin"
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+params = ["categories", "tags"]
+
+[outputs]
+home = ["HTML", "RSS", "Algolia"]

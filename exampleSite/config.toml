@@ -52,10 +52,17 @@ weight = 3
 URL = "faq"
 name = "FAQ"
 weight = 4
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
 [params]
 author = "Themefisher"
 contact_form_action = "#"
-copyright = "© [<b>Avadhoot Dandekar</b>](https://www.avadhoot.me/) Designed By [Themefisher](https://themefisher.com/) Developed By [Gethugothemes](https://gethugothemes.com/) ✨ Proudly deployed on [<b>Netlify</b>](https://www.netlify.com/)"
+copyright = "© [<b>Webify</b>](https://www.avadhoot.me/) Designed By: [Themefisher](https://themefisher.com/) Developed By: [Gethugothemes](https://gethugothemes.com/) ✨ Proudly Deployed By: [<b>Netlify</b>](https://www.netlify.com/)"
 description = "We are a web design and digital marketing agency."
 footer_content = "We are a web design and digital marketing agency. We help amplify your digital footprint in the digital space. Let’s webify!!"
 footer_menu_left = "Company"
@@ -63,6 +70,9 @@ footer_menu_middle = "Services"
 footer_menu_right = "Support"
 logo = "images/logo.svg"
 logo_width = "200px"
+[params.algolia]
+params = ["categories", "tags"]
+vars = ["title", "description", "summary", "date", "lastmod", "permalink"]
 [params.navigation_button]
 enable = true
 label = "Get Started"
@@ -102,15 +112,3 @@ title = "GitHub"
 icon = "ti-linkedin"
 link = "https://in.linkedin.com/in/avadhootdandekar2010"
 title = "linkedin"
-[outputFormats.Algolia]
-baseName = "algolia"
-isPlainText = true
-mediaType = "application/json"
-notAlternative = true
-
-[params.algolia]
-vars = ["title", "description", "summary", "date", "lastmod", "permalink"]
-params = ["categories", "tags"]
-
-[outputs]
-home = ["HTML", "RSS", "Algolia"]

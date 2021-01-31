@@ -1,5 +1,9 @@
 {
   "dependencies": {
-    "atomic-algolia": "^0.3.19"
+    "atomic-algolia": "^0.3.19",
+    "hugo-lunr": "^0.0.4"
+  },
+  "scripts": {
+    "index": "hugo-lunr"
   }
 }

@@ -61,7 +61,7 @@ footer_content = "We are a web design and digital marketing agency. We help ampl
 footer_menu_left = "Company"
 footer_menu_middle = "Services"
 footer_menu_right = "Support"
-logo = "images/logo.png"
+logo = "images/logo.svg"
 logo_width = "200px"
 [params.navigation_button]
 enable = true
@@ -102,3 +102,15 @@ title = "GitHub"
 icon = "ti-linkedin"
 link = "https://in.linkedin.com/in/avadhootdandekar2010"
 title = "linkedin"
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "description", "summary", "date", "lastmod", "permalink"]
+params = ["categories", "tags"]
+
+[outputs]
+home = ["HTML", "RSS", "Algolia"]

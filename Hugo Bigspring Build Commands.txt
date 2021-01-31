@@ -1,3 +1,7 @@
 hugo server --disableFastRender
 
+# Hugo Server Command
 hugo server --themesDir ../..
+
+# Hugo Build Command
+cd exampleSite && hugo --gc --themesDir ../..

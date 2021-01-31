@@ -108,7 +108,3 @@ title = "twitter"
 icon = "ti-github"
 link = "https://github.com/betterify"
 title = "GitHub"
-[[params.social]]
-icon = "ti-linkedin"
-link = "https://in.linkedin.com/in/avadhootdandekar2010"
-title = "linkedin"

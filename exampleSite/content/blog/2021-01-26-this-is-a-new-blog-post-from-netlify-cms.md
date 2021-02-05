@@ -2,7 +2,7 @@
 layout: blog
 title: This is a new Blog post from Netlify CMS
 date: 2021-01-26T07:05:45.634+00:00
-image: /images/banner-art.svg
+image: /images/undraw_choice_9385.svg
 type: featured
 ---
 This is a new post I am trying from Netlify CMS. Earlier the image display was an issue. I am trying if the same **problem** crops up again !!

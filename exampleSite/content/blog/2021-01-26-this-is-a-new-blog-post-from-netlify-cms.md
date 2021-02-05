@@ -13,4 +13,6 @@ I am also embedding a Hugo Tweet to see whether it works!!
 
 {{< youtube w7Ft2ymGmfc >}}
 
-<iframe src="https://cryptpad.fr/kanban/#/2/kanban/view/xTrkQt+O-Rx4aVwl3fAuIk23-HAPg3RIriz7JFfZ8r4/embed/" style="border:0px #ffffff none;" scrolling="yes" frameborder="0"  height="250px" width="100%" allowfullscreen></iframe>
+<iframe src="https://cryptpad.fr/kanban/#/2/kanban/view/xTrkQt+O-Rx4aVwl3fAuIk23-HAPg3RIriz7JFfZ8r4/embed/" frameborder="0" height="200px" width="100%"></iframe>
+
+<iframe src="https://cryptpad.fr/code/#/2/code/view/i5KqSVyBV03upgwsKksKjqnAF798cwXIMm1GmdIQP4g/embed/" frameborder="0" width="100%"></iframe>

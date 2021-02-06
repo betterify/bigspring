@@ -61,13 +61,6 @@ weight = 2
 URL = "blog"
 name = "Blog"
 weight = 3
-[outputFormats.Algolia]
-baseName = "algolia"
-isPlainText = true
-mediaType = "application/json"
-notAlternative = true
-[outputs]
-home = ["HTML", "RSS", "Algolia"]
 [params]
 author = "Themefisher"
 contact_form_action = "#"
@@ -79,9 +72,6 @@ footer_menu_middle = "Services"
 footer_menu_right = "Support"
 logo = "images/logo.svg"
 logo_width = "200px"
-[params.algolia]
-params = ["categories", "tags"]
-vars = ["title", "description", "summary", "date", "lastmod", "permalink"]
 [params.navigation_button]
 enable = true
 label = "Get Started"

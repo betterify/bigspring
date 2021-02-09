@@ -1,4 +1,4 @@
-baseURL = "https://bigspring.netlify.app/"
+baseURL = "https://web.avadhoot.me/"
 disqusShortname = ""
 googleAnalytics = ""
 languageCode = "en-us"
@@ -107,8 +107,3 @@ title = "twitter"
 icon = "ti-github"
 link = "https://github.com/betterify"
 title = "GitHub"
-[[redirects]]
-from = "https://bigspring.netlify.app/"
-to = "https://web.avadhoot.me/"
-status = 301
-force = true

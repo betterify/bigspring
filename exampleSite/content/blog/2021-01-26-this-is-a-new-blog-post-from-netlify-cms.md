@@ -2,8 +2,9 @@
 layout: blog
 title: This is a new Blog post from Netlify CMS
 date: 2021-01-26T07:05:45.634+00:00
-image: /images/undraw_choice_9385.svg
+image: "/images/undraw_choice_9385.svg"
 type: featured
+
 ---
 This is a new post I am trying from Netlify CMS. Earlier the image display was an issue. I am trying if the same **problem** crops up again !!
 
@@ -16,3 +17,5 @@ I am also embedding a Hugo Tweet to see whether it works!!
 <iframe src="https://cryptpad.fr/kanban/#/2/kanban/view/xTrkQt+O-Rx4aVwl3fAuIk23-HAPg3RIriz7JFfZ8r4/embed/" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="0" marginheight="10px" marginwidth="10px" height="250px" width="100%" allowfullscreen></iframe>
 
 <iframe src="https://cryptpad.fr/code/#/2/code/view/i5KqSVyBV03upgwsKksKjqnAF798cwXIMm1GmdIQP4g/embed/" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="0" marginheight="10px" marginwidth="10px" height="250px" width="100%" allowfullscreen></iframe>
+
+<div id="collapse1" class="panel-collapse collapse {{ .Get "col" }} ">

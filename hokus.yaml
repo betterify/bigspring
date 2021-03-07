@@ -1,0 +1,126 @@
+hugover: 0.80.0
+serve:
+  - key: default
+    config: config.yaml
+build:
+  - key: default
+    config: config.yaml
+collections:
+  - key: posts
+    title: Posts
+    folder: content/posts/
+    extension: md
+    dataformat: yaml
+    itemtitle: Post
+    fields:
+      - key: info
+        type: info
+        content: |-
+          # Info
+          You can write custom instructions here.
+        size: default
+        lineHeight: 1.2
+        theme: default
+      - key: title
+        title: Title
+        type: string
+        required: false
+        pattern: ''
+        multiLine: false
+        default: ''
+        tip: ''
+      - key: mainContent
+        title: Content
+        type: markdown
+        multiLine: true
+        default: ''
+        tip: ''
+      - key: pubdate
+        title: Pub Date
+        type: date
+        default: 2021-2-19
+        tip: ''
+      - key: draft
+        title: Draft
+        type: boolean
+        default: false
+        tip: ''
+      - key: bundle-manager
+        title: Images
+        type: bundle-manager
+        path: imgs
+        extensions:
+          - png
+          - jpg
+          - gif
+        fields:
+          - key: title
+            title: Title
+            type: string
+            required: false
+            pattern: ''
+            multiLine: false
+            default: ''
+            tip: ''
+          - key: description
+            title: Description
+            type: string
+            multiLine: true
+            required: false
+            pattern: ''
+            default: ''
+            tip: ''
+          - key: bundle-image-thumbnail
+            type: bundle-image-thumbnail
+            src: ''
+singles:
+  - key: mainConfig
+    title: Main Config
+    file: config.yaml
+    dataformat: yaml
+    fields:
+      - key: title
+        title: Site Title
+        type: string
+        tip: Your page title.
+        required: false
+        pattern: ''
+        multiLine: false
+        default: ''
+      - key: baseURL
+        title: Base URL
+        type: string
+        tip: Your site URL.
+        required: false
+        pattern: ''
+        multiLine: false
+        default: ''
+      - key: theme
+        title: Theme
+        type: readonly
+        tip: The current theme.
+        required: false
+        value: ''
+        default: ''
+        multiLine: false
+      - key: languageCode
+        title: Language Code
+        type: readonly
+        required: false
+        value: ''
+        default: ''
+        multiLine: false
+        tip: ''
+      - key: googleAnalytics
+        title: Google Analytics
+        type: string
+        tip: Provide a Google Analitics Tracking Code to enable analytics.
+        required: false
+        pattern: ''
+        multiLine: false
+        default: ''
+      - key: enableRobotsTXT
+        title: Enable Robots
+        type: boolean
+        default: true
+        tip: 'If you want your page to be indexed, keep this enabled.'

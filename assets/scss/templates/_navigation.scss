@@ -8,7 +8,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: $text-color-dark;
+  color: $text-color-dark;  
 
   &:hover {
     color: $primary-color;
@@ -21,4 +21,7 @@
   @include desktop {
     padding: 10px;
   }
+}
+.navigation {
+  background-color: #edf6f5;
 }

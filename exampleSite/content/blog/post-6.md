@@ -11,6 +11,7 @@ description: "This is meta description"
 draft: false
 ---
 
+This post shows the table of content:
 
 #### Heading example
 
@@ -37,6 +38,7 @@ Here is example of hedings. You can use this heading by following markdownify ru
 
 ###### Heading 6
 
+{{< table-of-contents >}}
 
 <hr>
 

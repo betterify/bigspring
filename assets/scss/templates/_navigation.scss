@@ -23,5 +23,6 @@
   }
 }
 .navigation {
-  background-color: #edf6f5;
+  background-color: $light;
+  border-bottom: 2px solid $primary-color;
 }

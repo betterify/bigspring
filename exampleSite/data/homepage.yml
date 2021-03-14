@@ -1,7 +1,7 @@
 ---
 banner:
   title: Let us solve your web design and digital marketing challenges
-  image: images/banner-art4.svg
+  image: images/banner-art5.svg
   content: We are a web design and digital marketing agency. We help amplify your
     digital footprint in the digital space. Let’s webify!!
   button:
@@ -77,7 +77,7 @@ service:
 screenshot:
   enable: true
   title: You will experience the best of the workflow with us!!
-  image: images/screenshot2.svg
+  image: images/screenshot3.svg
 call_to_action:
   enable: true
   title: Ready to get started?

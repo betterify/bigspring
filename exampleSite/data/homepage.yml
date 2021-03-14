@@ -81,7 +81,7 @@ screenshot:
 call_to_action:
   enable: true
   title: Ready to get started?
-  image: images/cta.svg
+  image: images/cta2.svg
   content: Do you want us to make your digital journey awesome? Call us!!
   button:
     enable: true

@@ -15,7 +15,7 @@
         {{ end }}
         
         <!-- {{with .image}}<img src="{{ . | absURL }}" class="img-fluid mt-5" width="750px">{{end}} -->
-        {{with .image}}<img src="{{ . | absURL }}" class="img-fluid w-100 mt-5" width="350px" height="1100px" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">{{end}}
+        {{with .image}}<img src="{{ . | absURL }}" class="img-fluid w-100 mt-5" width="1100px" height="350px" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">{{end}}
       
       </div>
     </div>
@@ -69,7 +69,7 @@
       <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
         <div {{if gt (len .images) 1}}class="slider" {{end}}>
           {{ range .images }}
-          <img src="{{ . | absURL }}" class="img-fluid">
+          <img src="{{ . | absURL }}" class="img-fluid" width="800px" height="500px">
           {{ end }}
         </div>
       </div>
@@ -83,7 +83,7 @@
       <div class="col-md-6 mb-4 mb-md-0">
         <div {{if gt (len .images) 1}}class="slider" {{end}}>
           {{ range .images }}
-          <img src="{{ . | absURL }}" class="img-fluid">
+          <img src="{{ . | absURL }}" class="img-fluid" width="800px" height="500px">
           {{ end }}
         </div>
       </div>
@@ -116,7 +116,7 @@
       </div>
     </div>
   </div>
-  {{ with .image }} <img src="{{ . | absURL }}" class="img-fluid w-100">{{ end }}
+  {{ with .image }} <img src="{{ . | absURL }}" class="img-fluid w-100" width="1100px" height="350px">{{ end }}
 </section>
 {{ end }}
 {{ end }}
@@ -129,7 +129,7 @@
   <div class="container section shadow rounded-lg px-4">
     <div class="row align-items-center justify-content-center text-center text-md-left">
       <div class="col-lg-6 col-md-5 mb-4 mb-md-0">
-        <img src="{{ .image | absURL }}" class="img-fluid">
+        <img src="{{ .image | absURL }}" class="img-fluid" width="800px" height="500px">
       </div>
       <div class="col-lg-5 col-md-6">
         <h2 class="section-title">{{ .title | markdownify }}</h2>

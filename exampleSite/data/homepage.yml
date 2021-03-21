@@ -35,9 +35,9 @@ service:
   service_item:
   - title: It is the most advanced web design digital marketing agency.
     images:
-    - images/service-1.png
-    - images/service-2.png
-    - images/service-3.png
+    - images/service-1.webp
+    - images/service-2.webp
+    - images/service-3.webp
     content: It is the most professional web design and digital marketing agency.
       We are well equiped to tranform your digital journey and digital footprint to
       its ultimate web experience.
@@ -47,7 +47,7 @@ service:
       link: "#"
   - title: It is a privately owned information and cyber security digital agency.
     images:
-    - images/service-1.png
+    - images/service-4.webp
     content: We are a small group of professional tech people. We are passionate about
       newest and open source technologies and trends. We are equiped to take care
       of your privacy and data. Your data is safe and secure with us.
@@ -77,7 +77,7 @@ service:
 screenshot:
   enable: true
   title: You will experience the best of the workflow with us!!
-  image: images/screenshot3.svg
+  image: images/screenshot.svg
 call_to_action:
   enable: true
   title: Ready to get started?

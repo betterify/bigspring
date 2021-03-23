@@ -52,7 +52,7 @@ business:
 call_to_action:
   enable : true
   title : "Need a larger plan?"
-  image : "images/cta.svg"
+  image : "images/Walking-Outside.svg"
   content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
   button:
     enable : true

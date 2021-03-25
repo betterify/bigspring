@@ -7,4 +7,4 @@ type: regular
 ---
 This is a new post from Netlify CMS. 
 
-<iframe allowfullscreen="true" frameborder="0" height="569" mozallowfullscreen="true" src="https://docs.google.com/presentation/d/e/2PACX-1vQmrymNWFltfprLl9IX-irRcmvjsL1ahOKAt8YTzuWTdcWyIH2EX6wyUmmJ4ftG3dICaTZ9DCpqXiht/embed?start=false&amp;loop=false&amp;delayms=3000" webkitallowfullscreen="true" width="960"></iframe>
+<center><iframe allowfullscreen="true" frameborder="0" height="569" mozallowfullscreen="true" src="https://docs.google.com/presentation/d/e/2PACX-1vQmrymNWFltfprLl9IX-irRcmvjsL1ahOKAt8YTzuWTdcWyIH2EX6wyUmmJ4ftG3dICaTZ9DCpqXiht/embed?start=false&amp;loop=false&amp;delayms=3000" webkitallowfullscreen="true" width="960"></iframe></center>

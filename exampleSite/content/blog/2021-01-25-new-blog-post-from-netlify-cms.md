@@ -7,4 +7,4 @@ type: featured
 ---
 **This is a new post added from Netlify CMS!!**
 
-![drawing alt text](https://docs.google.com/drawings/d/12345/export/png)
+![drawing alt text](https://docs.google.com/drawings/d/1m5MX9pPRsB4XjpcVC5tfECaJwCRAAWT-VoTQtDHTVrU/export/png)

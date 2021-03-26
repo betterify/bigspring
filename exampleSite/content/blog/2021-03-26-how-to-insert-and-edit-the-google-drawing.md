@@ -8,3 +8,7 @@ type: featured
 **Following is the Google Drawing that you can edit. Please click the image to edit.**
 
 [![drawing alt text](https://docs.google.com/drawings/d/1DeE2GEnTpWgVOF4N9RTFcLU-BbCsVe1Hzytaf92ODcw/export/png)](https://docs.google.com/drawings/d/1DeE2GEnTpWgVOF4N9RTFcLU-BbCsVe1Hzytaf92ODcw/edit "Click to view/edit Drawing")
+
+```
+[![drawing alt text](https://docs.google.com/drawings/d/1DeE2GEnTpWgVOF4N9RTFcLU-BbCsVe1Hzytaf92ODcw/export/png)](https://docs.google.com/drawings/d/1DeE2GEnTpWgVOF4N9RTFcLU-BbCsVe1Hzytaf92ODcw/edit "Click to view/edit Drawing")
+```

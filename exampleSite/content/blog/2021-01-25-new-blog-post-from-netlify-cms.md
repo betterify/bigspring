@@ -6,3 +6,5 @@ image: static/images/blog/post-2.jpg
 type: featured
 ---
 **This is a new post added from Netlify CMS!!**
+
+![drawing alt text](https://docs.google.com/drawings/d/12345/export/png)

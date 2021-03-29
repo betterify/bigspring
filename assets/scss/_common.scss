@@ -139,8 +139,12 @@ a:hover {
   border-radius: 10px !important;
 }
 
-.shadow{
+.shadow {
   box-shadow: 0 12px 24px -6px rgba(45,67,121,.10) !important;
+}
+
+.shadow:hover {
+  background-color:yellow;
 }
 
 // form control

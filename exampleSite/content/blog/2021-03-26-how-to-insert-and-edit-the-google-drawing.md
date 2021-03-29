@@ -2,7 +2,7 @@
 layout: blog
 title: How to insert and edit the Google Drawing?
 date: 2021-03-26T15:06:00.626Z
-image: /images/walking-outside.webp
+image: /images/walking-outside-1-.webp
 type: featured
 ---
 **Following is the Google Drawing that you can edit. Please click the image to edit.**

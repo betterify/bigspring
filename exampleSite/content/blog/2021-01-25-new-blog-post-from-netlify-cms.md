@@ -2,7 +2,7 @@
 layout: blog
 title: New Blog Post from Netlify CMS!!
 date: 2021-01-25T16:13:44.018Z
-image: https://lh3.googleusercontent.com/pw/ACtC-3d9Sc0CSuR57sR6S9Q0tPQpKMxzS8IFy57MsuIEpzp3u5TdxEHCzgkEq52KSjNpdpjwBJT8XRheukZPme1VDXn3WljBn4h_Yo2WCsy4DXTRZ2koPwKqpFZgXzwW7BBypTDorrmfqo2cfeAM4fHiQsu81w=w800-h500-no
+image: https://lh3.googleusercontent.com/pw/ACtC-3cOx9_Z1woEV1vSCJCCpkQQ9-iY39f1GAYrKzpJ1qyzx2JC4ZSZasKlzHEafR40Lvw0DnJ8nwVwcY2pmqXJP69Wyf6Ls3mgIzlfzHRAf-SKIniJ8mZ-GbEQJ6wToC4yRgOBPNJBSs_WLF9GwMvYBix57g=w800-h500-no
 type: featured
 ---
 **This is a new post added from Netlify CMS!!**

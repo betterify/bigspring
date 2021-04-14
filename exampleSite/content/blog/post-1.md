@@ -5,6 +5,7 @@ image: /images/cta.svg
 type: regular
 description: This is meta description
 draft: false
+table-of-contents: true
 ---
 #### Heading example
 

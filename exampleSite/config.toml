@@ -1,5 +1,5 @@
 baseURL = "https://bigspring.netlify.app/"
-disqusShortname = ""
+disqusShortname = "avadhoot"
 googleAnalytics = ""
 languageCode = "en-us"
 languageName = "En"
@@ -63,8 +63,8 @@ name = "Blog"
 weight = 3
 [params]
 author = "Themefisher"
-contact_form_action = "#"
-copyright = "© [<b>Amplify</b>](https://www.avadhoot.me/) | Designed By [Themefisher](https://themefisher.com/) | Developed By [Gethugothemes](https://gethugothemes.com/) ✨ Proudly Deployed By [<b>Netlify</b>](https://www.netlify.com/)"
+contact_form_action = "https://formspree.io/f/mknknlry" # contact form works with : https://formspree.io
+copyright = "© [Amplify](https://www.avadhoot.me/) | Designed By [Themefisher](https://themefisher.com/) | Developed By [Gethugothemes](https://gethugothemes.com/) ✨ Proudly Deployed By [Netlify](https://www.netlify.com/)"
 description = "We are a web design and digital marketing agency."
 footer_content = "We are a web design and digital marketing agency. We help amplify your digital footprint in the digital space. Let’s webify!!"
 footer_menu_left = "Company"

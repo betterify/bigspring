@@ -4,6 +4,15 @@ subtitle: ""
 # meta description
 description: "This is meta description"
 draft: false
+call_to_action:
+  enable : true
+  title : "Need a larger plan?"
+  image : "images/Walking-Outside.svg"
+  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
+  button:
+    enable : true
+    label : "Contact Us"
+    link : "contact"
 ---
 
 

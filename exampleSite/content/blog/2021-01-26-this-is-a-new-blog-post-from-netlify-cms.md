@@ -2,9 +2,8 @@
 layout: blog
 title: This is a new Blog post from Netlify CMS
 date: 2021-01-26T07:05:45.634+00:00
-image: "/images/undraw_choice_9385.svg"
+image: https://lh3.googleusercontent.com/pw/ACtC-3cOx9_Z1woEV1vSCJCCpkQQ9-iY39f1GAYrKzpJ1qyzx2JC4ZSZasKlzHEafR40Lvw0DnJ8nwVwcY2pmqXJP69Wyf6Ls3mgIzlfzHRAf-SKIniJ8mZ-GbEQJ6wToC4yRgOBPNJBSs_WLF9GwMvYBix57g=w800-h500-no
 type: featured
-
 ---
 This is a new post I am trying from Netlify CMS. Earlier the image display was an issue. I am trying if the same **problem** crops up again !!
 

@@ -11,8 +11,8 @@
   border-radius: 0;
 }
 
-.alert .content *{
-  margin-bottom: 0 !important;
+.alert *{
+  margin-bottom: 0;
 }
 
 .alert-icon {
@@ -38,6 +38,10 @@
 
 .alert-light {
   color: $black;
+}
+
+.alert a {
+  border-bottom: 1px solid #1db4f9;
 }
 
 .alert-warning {

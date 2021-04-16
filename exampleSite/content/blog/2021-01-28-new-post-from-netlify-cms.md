@@ -8,3 +8,5 @@ type: regular
 This is a new post from Netlify CMS. 
 
 {{< gslides src="https://docs.google.com/presentation/d/e/2PACX-1vQmrymNWFltfprLl9IX-irRcmvjsL1ahOKAt8YTzuWTdcWyIH2EX6wyUmmJ4ftG3dICaTZ9DCpqXiht/embed?start=false&amp;loop=false&amp;delayms=3000" >}}
+
+<iframe allowfullscreen="" frameborder="0" height="400px" marginheight="0px" marginwidth="0px" name="myiFrame" scrolling="yes" src="https://datastudio.google.com/embed/reporting/1httI14Yytc3Eq2aEdgkTvb0gVyqFlfYs/page/4IMq" style="border: 0px #ffffff none;" width="100%"></iframe>

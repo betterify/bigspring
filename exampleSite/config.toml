@@ -107,3 +107,9 @@ title = "twitter"
 icon = "ti-github"
 link = "https://github.com/betterify"
 title = "GitHub"
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 5
+    ordered = false

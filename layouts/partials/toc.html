@@ -1,0 +1,12 @@
+{{ if and (gt .WordCount 400 ) (.Params.toc) }}
+<div class="row justify-content-center">
+<div class="feature-card text-center">
+<aside>
+    <header>
+    <h2>{{.Title}}</h2>
+    </header>
+    {{.TableOfContents}}
+</aside>
+</div>
+</div>
+{{ end }}

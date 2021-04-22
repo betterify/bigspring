@@ -192,3 +192,30 @@ textarea.form-control {
     top: 3px;
   }
 }
+
+aside {
+  //width: 100%;
+  list-style-type: circle;
+  margin-bottom: 20px;
+  //margin-left: 15px;
+  //float: right;
+  //font-style: italic;
+  background-color: $light;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+}
+
+aside {
+  ul li a {
+    display: block;
+    //text-decoration: underline;
+    list-style-type: arrow;
+    margin: 0;
+    margin-left: 0;
+    position: relative;
+    margin-bottom: .375em;
+    line-height: 1.275em;
+  }
+}
+

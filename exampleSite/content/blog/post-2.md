@@ -10,8 +10,6 @@ description: "This is meta description"
 # post draft
 draft: false
 ---
-
-
 #### Heading example
 
 Here is example of hedings. You can use this heading by following markdownify rules. For example: use `#` for heading 1 and use `######` for heading 6.

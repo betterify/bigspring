@@ -10,11 +10,24 @@
         <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-4">
         <h2 class="mb-4">{{ .Title }}</h2>
         <aside>
-          <div class="toc feature-card">
-            <h3>Table of Contents:</h3>            
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <h3>Table of Contents:</h3>  
+          </button>
+        </h5>
+      </div>
+  
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+        <div class="card-body">          
           {{ .Page.TableOfContents }}
         </div>
-        </aside>
+      </div>
+    </div>
+    </div>
+        </aside>        
         <div class="content">{{.Content}}
           
         </div>

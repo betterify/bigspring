@@ -197,7 +197,7 @@ textarea.form-control {
 
 aside {
   //width: 100%;
-  list-style-type: none;
+  //list-style-type: none;
   margin-bottom: 20px;
   //margin-left: 15px;
   //float: right;
@@ -212,7 +212,7 @@ aside {
   ul li a {
     display: block;
     //text-decoration: underline;
-    list-style-type: none;
+    //list-style-type: none;
     margin: 0;
     margin-left: 0;
     position: relative;
@@ -221,17 +221,29 @@ aside {
   }
 }
 
-// aside {
-//   > ul {
-//     list-style-type: none;
-//     padding-left: 0;
-//   }
-// }
+#TableOfContents {  
+  > ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+}
 
-// aside {
-//   > ul > li ul {
-//     list-style-type: none;
-//     padding-left: 0;
-//   }
-// }
+#TableOfContents {
+  > ul > li ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+}
 
+div#headingOne button {
+  padding: 0;
+  background-color: transparent;  
+  box-shadow: 0;
+  
+}
+
+div#headingOne button {
+  &:hover {
+   box-shadow: 0 !important;
+  }
+}

@@ -10,8 +10,10 @@
         <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-4">
         <h2 class="mb-4">{{ .Title }}</h2>
         <aside>
-          <h3>Table of Contents:</h3>
-          {{ .TableOfContents }}
+          <div class="toc feature-card">
+            <h3>Table of Contents:</h3>            
+          {{ .Page.TableOfContents }}
+        </div>
         </aside>
         <div class="content">{{.Content}}
           

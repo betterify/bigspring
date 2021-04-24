@@ -22,5 +22,7 @@
 		dots: true,
 		arrows: false
 	});
+  
+  $('.collapse').collapse();
 
 })(jQuery);

@@ -8,6 +8,6 @@ HUGO_THEME = "repo"
 HUGO_BASEURL = "/"
 [[redirects]]
 from = "https://bigspring.netlify.app/"
-to = "https://www.edu.avadhoot.me/"
+to = "https://go.avadhoot.me/"
 status = 301
 force = true

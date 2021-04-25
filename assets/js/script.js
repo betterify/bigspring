@@ -23,6 +23,6 @@
 		arrows: false
 	});
   
-  $('.collapse').collapse();
+  $('#collapseOne').collapse();
 
 })(jQuery);

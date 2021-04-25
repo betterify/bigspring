@@ -221,7 +221,7 @@ aside {
   }
 }
 
-#TableOfContents {  
+#TableOfContents {    
   > ul {
     list-style-type: none;
     padding-left: 20px;
@@ -235,21 +235,22 @@ aside {
   }
 }
 
-div#headingOne button {
+div#headingOne button {  
   content: none;
   padding: 0;
-  background-color: transparent;  
+  background-color: yellowgreen;  
   box-shadow: 0;
   &:hover,
   &:focus {
     box-shadow: 0 !important;
     content: none !important;
-   }
-  
+   }  
 }
 
 #firstname {
-  background-color: transparent !important;
+  padding: 0;
+  border-radius: 0;
+  //background-color: transparent !important;
   &:hover {
    box-shadow: 0 !important;
    content: none !important;

@@ -17,6 +17,4 @@ type: featured
 
 {{< slideshare id="exvMftSyV7yRQR" >}}
 
-{{< gdatastudio id="1httI14Yytc3Eq2aEdgkTvb0gVyqFlfYs/page/4IMq" >}}
-
-<iframe width="100%" height="450" src="https://datastudio.google.com/embed/reporting/1a7XPppFYOll2MpgEROgLmFtyNespJ0l3/page/DhMr" frameborder="0" style="border:0" allowfullscreen></iframe>
+{{< gslides src="//www.slideshare.net/slideshow/embed_code/key/exvMftSyV7yRQR" >}}

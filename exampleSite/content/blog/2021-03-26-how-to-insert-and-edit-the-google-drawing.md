@@ -18,3 +18,7 @@ type: featured
 <!-- {{< slideshare id="exvMftSyV7yRQR" >}} -->
 
 {{< slideshare src="//www.slideshare.net/slideshow/embed_code/key/exvMftSyV7yRQR" >}}
+
+<iframe allowfullscreen="" frameborder="0" height="600px" marginheight="0px" marginwidth="0px" name="myiFrame" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vQEOiACvOFXNYU9IBJaAfZAHKEadZukom-evk8EcDoKx1Cq36JlEBnNCr3HGNLGNM5n6rO-v2nitERZ/pub?embedded=true" style="border: 0px #ffffff none;" width="100%"></iframe>
+
+{{< gdocs src="https://docs.google.com/document/d/e/2PACX-1vQEOiACvOFXNYU9IBJaAfZAHKEadZukom-evk8EcDoKx1Cq36JlEBnNCr3HGNLGNM5n6rO-v2nitERZ/pub?embedded=true" >}}

@@ -3,17 +3,7 @@ layout: blog
 title: How to insert and edit the Google Drawing?
 date: 2021-03-26T15:06:00.626Z
 image: /images/walking-outside-1-.webp
-type: featured
-resources:
-    - src: /images/banner-art.jpg
-      name: slide
-      title: slide 1 
-    - src: /images/banner-art2.jpg
-      name: slide 
-      title: slide 2  
-    - src: carousel/slide3.jpg
-      name: slide 
-      title: slide 3 
+type: featured 
 ---
 **Following is the Google Drawing that you can edit. Please click the image to edit.**
 
@@ -28,3 +18,5 @@ resources:
 {{< slideshare id="exvMftSyV7yRQR" >}}
 
 {{< gdatastudio id="1httI14Yytc3Eq2aEdgkTvb0gVyqFlfYs/page/4IMq" >}}
+
+<iframe width="100%" height="450" src="https://datastudio.google.com/embed/reporting/1a7XPppFYOll2MpgEROgLmFtyNespJ0l3/page/DhMr" frameborder="0" style="border:0" allowfullscreen></iframe>

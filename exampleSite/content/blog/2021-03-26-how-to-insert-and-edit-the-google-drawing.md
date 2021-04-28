@@ -15,6 +15,6 @@ type: featured
 
 {{< audio mp3="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" >}}
 
-{{< slideshare id="exvMftSyV7yRQR" >}}
+<!-- {{< slideshare id="exvMftSyV7yRQR" >}} -->
 
-{{< gslides src="//www.slideshare.net/slideshow/embed_code/key/exvMftSyV7yRQR" >}}
+{{< slideshare src="//www.slideshare.net/slideshow/embed_code/key/exvMftSyV7yRQR" >}}

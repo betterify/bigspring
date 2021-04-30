@@ -20,3 +20,5 @@ type: featured
 {{< slideshare src="//www.slideshare.net/slideshow/embed_code/key/exvMftSyV7yRQR" >}}
 
 {{< gdocs src="https://docs.google.com/document/d/e/2PACX-1vQEOiACvOFXNYU9IBJaAfZAHKEadZukom-evk8EcDoKx1Cq36JlEBnNCr3HGNLGNM5n6rO-v2nitERZ/pub?embedded=true" >}}
+
+{{< pdf src="https://drive.google.com/file/d/1tgNhf6c8Ue_9PBEOMGAmCzQhmNbCq1XE/preview" >}}

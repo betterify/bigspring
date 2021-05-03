@@ -16,3 +16,10 @@ The above image a Google Drawing that you can edit to show new changes. **The ch
 > Google Drawings is a diagramming software included as part of the free, web-based Google Docs Editors suite offered by **[Google](https://g.co/kgs/kVZimY)**.
 
 {{< alert icon="💡" text="Learn more about <a href=\"https://docs.npmjs.com/about-semantic-versioning\">semantic versioning</a> and <a href=\"https://docs.npmjs.com/cli/v6/using-npm/semver#advanced-range-syntax\">advanced range syntax</a>." >}}
+
+<br/>
+{{< button href="https://www.google.com/" >}}Example{{< /button >}}
+
+{{< message danger >}}
+✨ This is a Hugo site. <a href="https://gohugo.io/" target="_blank">Hugo</a> is the world’s fastest framework for building Websites.
+{{< /message >}}

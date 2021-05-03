@@ -193,7 +193,7 @@ textarea.form-control {
   }
 }
 
-// Table of Contents (TOC)
+// Table of Contents (TOC) in Partials
 
 aside {
   //width: 100%;
@@ -235,18 +235,6 @@ aside {
   }
 }
 
-// div#headingOne button {  
-//   content: none;
-//   padding: 0;
-//   //background-color: yellowgreen;  
-//   box-shadow: 0;
-//   &:hover,
-//   &:focus {
-//     box-shadow: 0 !important;
-//     content: none !important;
-//    }  
-// }
-
 #firstname h3 {
   color: #FFF !important;
   padding-top: 5px;
@@ -260,6 +248,18 @@ aside {
   }
 }
 
-#googleSlideIframe {
-  border: 5px solid $primary-color !important;
-}
+// Table of Contents (TOC) as Shortcode
+
+// #table-of-contents {
+//   > ul > li ul {
+//     list-style-type: none;
+//     padding-left: 0;
+//   }
+// }
+
+// .content {     
+//   ul li {
+//     list-style-type: none;
+//     padding-left: 20px;
+//   }
+// }

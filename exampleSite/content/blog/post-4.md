@@ -9,6 +9,7 @@ type: "regular"
 description: "This is meta description"
 # post draft
 draft: false
+toc: true
 ---
 
 

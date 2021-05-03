@@ -1,5 +1,5 @@
-{{ $_hugo_config := `{ "version": 1 }` }}
-<a {{ with .Get "href"}} href="{{.}}" target="_blank" {{ end }} class="btn btn-primary btn-lg" id="firstname" data-toggle="collapse" data-target="#collapseOne">
+<!-- {{ $_hugo_config := `{ "version": 1 }` }}
+<a {{ with .Get "href"}} href="{{.}}" target="_blank" {{ end }} class="btn btn-outline-primary mt-3 mb-3 btn-lg btn-block" id="firstname" data-toggle="collapse" data-target="#collapseOne">
   {{ $icon := .Get "icon" }}
   {{ $iconposition := .Get "icon-position" }}
   {{ if ($icon) }}
@@ -11,4 +11,7 @@
   {{ if and ($icon) (eq $iconposition "right")}}
   <i class="{{$icon}}"></i>
   {{ end }}
-</a>
+</a> -->
+
+
+<a class="btn{{ with .Get "class" }} {{ . }}{{ end }}" href="{{ with .Get "href" }}{{ . }}{{ end }}">{{ .Inner }}</a>

@@ -263,3 +263,45 @@ aside {
 //     padding-left: 20px;
 //   }
 // }
+
+// Markdown Buttons
+.button-outline-primary {
+  background-color: $light;
+  color: $text-color-dark;
+  border-color: transparent;
+
+  &:active,
+  &:hover,
+  &.focus,
+  &.active {
+    background-color: yellow !important;
+    border-color: $primary-color !important;
+    color: $primary-color;
+  }
+  &::before{
+    border-color: $primary-color;
+  }
+}
+
+// Markdown Images
+.img-thumbnail, figure img {
+  padding: 0.25rem;
+  background-color: #e8eaed;
+  border: 1px solid #8594a0;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+// Markdown Card
+// .card {
+//   position: relative;
+//   display: flex;
+//   flex-direction: column;
+//   min-width: 0;
+//   word-wrap: break-word;
+//   background-color: #e8eaed;
+//   background-clip: border-box;
+//   border: 1px solid rgba(10, 11, 12, 0.125);
+//   border-radius: 0.25rem;
+// }

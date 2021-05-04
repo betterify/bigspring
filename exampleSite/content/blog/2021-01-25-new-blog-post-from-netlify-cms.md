@@ -38,3 +38,10 @@ Image: [Google Drawing](https://docs.google.com)
 {{</figure>}}
 
 <a href="https://www.google.com/" target="_blank">Google</a>
+
+{{<card class="shadow" markdownify="true">}}
+### You may also like to read: <span class="badge badge-success">New</span>
+You may also like to see the following <span class="badge badge-primary">posts</span> from this Blog:
+<p><a href="https://go.avadhoot.me/blog/2021-03-26-how-to-insert-and-edit-the-google-drawing/" target="_blank">How to insert and edit the Google Drawing in Hugo?</a></p>
+<p><a href="https://go.avadhoot.me/blog/2021-01-25-new-blog-post-from-netlify-cms/" target="_blank">How to make a Shortcode for Bootstrap Card in Hugo?</a></p>
+{{</card>}}

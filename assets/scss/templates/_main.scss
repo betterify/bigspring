@@ -85,7 +85,8 @@ a.post-title {
 
   a {
     color: $text-color;
-    border-bottom: 1px dotted $border-color;
+    //border-bottom: 1px dotted $border-color;
+    border-bottom: 1px solid #1db4f9;
     font-weight: bold;
     color: $primary-color;
 

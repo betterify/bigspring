@@ -26,6 +26,7 @@ The above image a Google Drawing that you can edit to show new changes. **The ch
 {{<card class="shadow" markdownify="true">}}
 ### Example Card <span class="badge badge-secondary">New</span>
 This is a small <span class="badge badge-primary">example</span> of a card.
+{{<button class="button button-outline-primary btn-lg mt-4 mb-4" href="https://www.google.com/" target="_blank">}}Card Button{{</button>}}
 {{</card>}}
 
 {{<figure src="https://via.placeholder.com/720x480">}}
@@ -35,3 +36,5 @@ Image: [placeholder.com](https://placeholder.com)
 {{<figure src="https://docs.google.com/drawings/d/1m5MX9pPRsB4XjpcVC5tfECaJwCRAAWT-VoTQtDHTVrU/export/png">}}
 Image: [Google Drawing](https://docs.google.com)
 {{</figure>}}
+
+<a href="https://www.google.com/" target="_blank">Google</a>

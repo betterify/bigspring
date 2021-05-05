@@ -1,0 +1,16 @@
+<!-- layouts/taxonomy/tag.html -->
+<!-- <ul>
+    {{ range .Data.Pages }}
+    <li>
+      <a href="{{.RelPermalink}}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul> -->
+
+<ul>
+  <li><i class="ion-pricetags"></i> 
+    {{ range $index, $elements:= .Params.Tags }}
+    {{ if ne $index 0 }}, {{ end }}<a href="{{ `tags/` | relLangURL }}{{ . | lower }}">{{ . | humanize }}</a>
+                    {{ end }}
+  </li>
+</ul>

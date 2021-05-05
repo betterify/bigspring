@@ -2,8 +2,10 @@
 layout: blog
 title: New Blog Post from Netlify CMS!!
 date: 2021-01-25T16:13:44.018Z
+author: Avadhoot Dandekar
 image: https://lh3.googleusercontent.com/pw/ACtC-3cOx9_Z1woEV1vSCJCCpkQQ9-iY39f1GAYrKzpJ1qyzx2JC4ZSZasKlzHEafR40Lvw0DnJ8nwVwcY2pmqXJP69Wyf6Ls3mgIzlfzHRAf-SKIniJ8mZ-GbEQJ6wToC4yRgOBPNJBSs_WLF9GwMvYBix57g=w800-h500-no
 type: featured
+tags: ["Hugo","Jamstack"]
 ---
 **This is a new post added from Netlify CMS!!**
 
@@ -17,7 +19,7 @@ The above image a Google Drawing that you can edit to show new changes. **The ch
 
 {{< alert icon="💡" text="Learn more about <a href=\"https://docs.npmjs.com/about-semantic-versioning\">semantic versioning</a> and <a href=\"https://docs.npmjs.com/cli/v6/using-npm/semver#advanced-range-syntax\">advanced range syntax</a>." >}}
 
-{{<button class="button button-outline-primary btn-lg mt-4 mb-4" href="https://www.google.com/" target="_blank">}}Example Button{{</button>}}
+{{<button class="button button-outline-primary btn-lg mt-4 mb-4" href="https://www.google.com/" target="_blank">}}Example Button <i class="far fa-calendar-plus"></i>{{</button>}}
 
 {{< message danger >}}
 ✨ This is a Hugo site. <a href="https://gohugo.io/" target="_blank">Hugo</a> is the world’s fastest framework for building Websites.

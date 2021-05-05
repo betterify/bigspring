@@ -307,3 +307,69 @@ aside {
   border-radius: 0.25rem;
   
 }
+
+// Tag Cloud
+.widget {  
+  &.widget-tag {    
+    ul {   
+      li {        
+        margin-bottom: 10px;
+        display: inline-block;
+        margin-right: 5px;
+
+        a {
+          background-color: $light;
+          color: #837f7e;
+          display: inline-block;
+          padding: 8px 15px;
+          border: 1px solid $primary-color;
+          border-radius: 30px;
+          font-size: 14px;
+          //@include transition (all, 0.3s, ease);
+
+          &:hover {
+            color: $light;
+            background: $primary-color;
+            border: 1px solid $primary-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+  // Post Meta
+.post-meta {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+    ul {
+      background-color: $light;
+      border-radius: 20px;
+      li {
+        display: inline-block;
+        color: #909090;
+        margin-right: 20px;
+        font-size: 12px;
+        letter-spacing: .5px;
+
+        a {
+          color: #909090;
+          //background-color: $light;
+          //color: #837f7e;
+          display: inline-block;
+          padding: 4px 10px;
+          //border: 1px solid $primary-color;
+          //border-radius: 10px;
+          font-size: 12px;
+
+          &:hover {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+
+.bi-alarm::before { content: "\f102"; }

@@ -16,6 +16,30 @@
           </div>
           <div class="col-md-6">
             <h2><a href="{{ .Permalink }}" class="post-title">{{ .Title }}</a></h2>
+            <div class="post-meta">
+              <ul>
+                <li><i class="bi bi-calendar-date"></i> {{ .PublishDate.Format "January 2, 2006" }}</li>
+                <li><i class="ion-android-people"></i>
+                  {{ i18n "posted_by" }}
+                  {{if site.Params.multi_author}}
+                  {{ range $index, $elements:= .Params.Author }}{{ if ne $index 0 }}, {{ end }}<a class="text-primary" href="{{ `author/` | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
+                  {{else}}
+                  <a class="text-primary" href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author }}</a>
+                  {{end}}
+                </li>
+                <li><i class="ion-pricetags"></i> 
+                  {{ range $index, $elements:= .Params.Tags }}
+                  {{ if ne $index 0 }}, {{ end }}<a href="{{ `tags/` | relLangURL }}{{ . | lower }}">{{ . | humanize }}</a>
+                  {{ end }}
+                </li>
+          <li><i class="ion-clock"></i>
+          {{ .ReadingTime}} Minutes
+          </li>
+          <li><i class="ion-clipboard"></i>
+          {{ .WordCount}} Words
+          </li>
+              </ul>
+            </div>
             <p class="card-text">{{ .Summary }}</p>
             <a href="{{.Permalink}}" class="btn btn-primary">Read More</a>
           </div>
@@ -29,6 +53,30 @@
           <img src="{{ .Params.image |absURL }}" alt="{{ .Title }}" class="card-img rounded-lg mb-4">
           <div class="card-body p-0">
             <h3><a href="{{ .Permalink }}" class="post-title">{{ .Title }}</a></h3>
+            <div class="post-meta">
+              <ul>
+                <li><i class="bi bi-calendar-date"></i> {{ .PublishDate.Format "January 2, 2006" }}</li>
+                <li><i class="ion-android-people"></i>
+                  {{ i18n "posted_by" }}
+                  {{if site.Params.multi_author}}
+                  {{ range $index, $elements:= .Params.Author }}{{ if ne $index 0 }}, {{ end }}<a class="text-primary" href="{{ `author/` | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
+                  {{else}}
+                  <a class="text-primary" href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author }}</a>
+                  {{end}}
+                </li>
+                <li><i class="ion-pricetags"></i> 
+                  {{ range $index, $elements:= .Params.Tags }}
+                  {{ if ne $index 0 }}, {{ end }}<a href="{{ `tags/` | relLangURL }}{{ . | lower }}">{{ . | humanize }}</a>
+                  {{ end }}
+                </li>
+          <li><i class="ion-clock"></i>
+          {{ .ReadingTime}} Minutes
+          </li>
+          <li><i class="ion-clipboard"></i>
+          {{ .WordCount}} Words
+          </li>
+              </ul>
+            </div>
             <p class="card-text">{{ .Summary }}</p>
             <a href="{{.Permalink}}" class="btn btn-primary btn-sm">Read More</a>
           </div>

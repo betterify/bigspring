@@ -345,21 +345,21 @@ aside {
     margin-bottom: 15px;
 
     ul {
-      background-color: $light;
-      border-radius: 20px;
+      //background-color: $light;
+      //border-radius: 20px;
       li {
         display: inline-block;
-        color: #909090;
-        margin-right: 20px;
+        color: #777;
+        margin-right: 5px;
         font-size: 12px;
         letter-spacing: .5px;
 
         a {
-          color: #909090;
+          color: #777;
           //background-color: $light;
           //color: #837f7e;
           display: inline-block;
-          padding: 4px 10px;
+          //padding: 4px 10px;
           //border: 1px solid $primary-color;
           //border-radius: 10px;
           font-size: 12px;
@@ -370,5 +370,21 @@ aside {
         }
       }
     }
+  }
+
+  .post-meta ul li {
+    background-color: $light;
+    color: #777;
+    height: 2em;
+    //display: inline-flex;
+    //justify-content: center;
+    line-height: 2;
+    padding-left: .50em;
+    padding-right: .50em;
+    white-space: nowrap;
+    //align-items: center;
+    border-radius: 4px;
+    //padding-left: .75em;
+    //padding-right: .75em;
   }
  

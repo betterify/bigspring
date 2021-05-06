@@ -5,7 +5,11 @@ date: 2021-01-25T16:13:44.018Z
 author: Avadhoot Dandekar
 image: https://lh3.googleusercontent.com/pw/ACtC-3cOx9_Z1woEV1vSCJCCpkQQ9-iY39f1GAYrKzpJ1qyzx2JC4ZSZasKlzHEafR40Lvw0DnJ8nwVwcY2pmqXJP69Wyf6Ls3mgIzlfzHRAf-SKIniJ8mZ-GbEQJ6wToC4yRgOBPNJBSs_WLF9GwMvYBix57g=w800-h500-no
 type: featured
-tags: ["Hugo","Jamstack"]
+tags: ["Hugo", "Alert", "Google-Docs", "Button", "Card",]
+# meta description
+description: "This is meta description"
+# post draft
+draft: false
 ---
 **This is a new post added from Netlify CMS!!**
 

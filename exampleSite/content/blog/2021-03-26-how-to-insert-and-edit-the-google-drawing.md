@@ -2,8 +2,14 @@
 layout: blog
 title: How to insert and edit the Google Drawing?
 date: 2021-03-26T15:06:00.626Z
+author: Avadhoot Dandekar
 image: /images/walking-outside-1-.webp
 type: featured 
+tags: ["Hugo","Jamstack"]
+# meta description
+description: "This is meta description"
+# post draft
+draft: false
 ---
 **Following is the Google Drawing that you can edit. Please click the image to edit.**
 

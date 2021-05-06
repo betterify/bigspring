@@ -1,10 +1,12 @@
 ---
 title: "Pump-up the team morale and celebrate the excellence"
 date: 2020-04-18T10:07:21+06:00
+author: Avadhoot Dandekar
 # post image
 image: "images/blog/post-2.jpg"
 # post type (regular/featured)
 type: "regular"
+tags: ["Hugo","Jamstack", "Typography"]
 # meta description
 description: "This is meta description"
 # post draft

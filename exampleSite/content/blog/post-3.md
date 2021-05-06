@@ -1,10 +1,12 @@
 ---
 title: "screens with built in Present and Dismiss animations."
 date: 2020-04-18T10:07:21+06:00
+author: Avadhoot Dandekar
 # post image
 image: "images/blog/post-3.jpg"
 # post type (regular/featured)
 type: "regular"
+tags: ["Hugo","Jamstack", "Typography"]
 # meta description
 description: "This is meta description"
 # post draft

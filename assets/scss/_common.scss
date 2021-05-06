@@ -196,24 +196,15 @@ textarea.form-control {
 
 // Table of Contents (TOC) in Partials
 
-aside {
-  //width: 100%;
-  //list-style-type: none;
-  margin-bottom: 20px;
-  //margin-left: 15px;
-  //float: right;
-  //font-style: italic;
-  //background-color: $light;
-  border-radius: 10px;
-  //padding: 20px;
+aside {  
+  margin-bottom: 20px;  
+  border-radius: 10px;  
   text-align: left;
 }
 
 aside {
   ul li a {
-    display: block;
-    //text-decoration: underline;
-    //list-style-type: none;
+    display: block;    
     margin: 0;
     margin-left: 0;
     position: relative;
@@ -238,15 +229,7 @@ aside {
 
 #firstname h3 {
   color: #FFF !important;
-  padding-top: 5px;
-  //border-radius: 0;
-  //background-color: transparent;
-  &:hover,
-  &::before {
-    //content: "";
-    //box-shadow: 0 !important;
-    //content: none !important;
-  }
+  padding-top: 5px;    
 }
 
 // Table of Contents (TOC) as Shortcode
@@ -285,13 +268,8 @@ aside {
 }
 
 // Markdown Images
-.img-thumbnail, figure img {
-  //padding: 0.25rem;
-  //background-color: #e8eaed;
-  //border: 1px solid #8594a0;
-  //border-radius: 0.25rem;
-  width: 100%;
-  //height: auto;
+.img-thumbnail, figure img {  
+  width: 100%;  
 }
 
 // Markdown Card
@@ -300,8 +278,7 @@ aside {
   display: flex;
   flex-direction: column;
   min-width: 0;
-  word-wrap: break-word;
-  //background-color: #e8eaed;
+  word-wrap: break-word;  
   background-clip: border-box;
   border: 1px solid rgba(10, 11, 12, 0.125);
   border-radius: 0.25rem;
@@ -324,8 +301,7 @@ aside {
           padding: 8px 15px;
           border: 1px solid $primary-color;
           border-radius: 30px;
-          font-size: 14px;
-          //@include transition (all, 0.3s, ease);
+          font-size: 14px;         
 
           &:hover {
             color: $light;
@@ -343,25 +319,18 @@ aside {
     font-size: 13px;
     margin-top: 10px;
     margin-bottom: 15px;
-
-    ul {
-      //background-color: $light;
-      //border-radius: 20px;
+    margin-left: 10px;
+    
+    ul {     
+      
       li {
         display: inline-block;
         color: #777;
         margin-right: 5px;
-        font-size: 12px;
-        letter-spacing: .5px;
+        font-size: 12px;       
 
         a {
-          color: #777;
-          //background-color: $light;
-          //color: #837f7e;
-          display: inline-block;
-          //padding: 4px 10px;
-          //border: 1px solid $primary-color;
-          //border-radius: 10px;
+          color: #777;          
           font-size: 12px;
 
           &:hover {
@@ -372,19 +341,14 @@ aside {
     }
   }
 
-  .post-meta ul li {
+  .post-meta ul li {    
     background-color: $light;
     color: #777;
-    height: 2em;
-    //display: inline-flex;
-    //justify-content: center;
+    height: 2em;    
     line-height: 2;
     padding-left: .50em;
     padding-right: .50em;
-    white-space: nowrap;
-    //align-items: center;
+    white-space: nowrap;    
     border-radius: 4px;
-    //padding-left: .75em;
-    //padding-right: .75em;
+    
   }
- 

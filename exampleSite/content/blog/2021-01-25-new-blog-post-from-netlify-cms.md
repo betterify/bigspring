@@ -15,15 +15,13 @@ draft: false
 
 ![drawing alt text](https://docs.google.com/drawings/d/1m5MX9pPRsB4XjpcVC5tfECaJwCRAAWT-VoTQtDHTVrU/export/png)
 
-
-
 The above image a Google Drawing that you can edit to show new changes. **The changes are reflected instantly.**
 
 > Google Drawings is a diagramming software included as part of the free, web-based Google Docs Editors suite offered by **[Google](https://g.co/kgs/kVZimY)**.
 
 {{< alert icon="💡" text="Learn more about <a href=\"https://docs.npmjs.com/about-semantic-versioning\">semantic versioning</a> and <a href=\"https://docs.npmjs.com/cli/v6/using-npm/semver#advanced-range-syntax\">advanced range syntax</a>." >}}
 
-{{<button class="button button-outline-primary btn-lg mt-4 mb-4" href="https://www.google.com/" target="_blank">}}Example Button <i class="far fa-calendar-plus"></i>{{</button>}}
+{{<button class="button button-outline-primary btn-lg mt-4 mb-4" href="https://www.google.com/" target="_blank">}}Example Button{{</button>}}
 
 {{< message danger >}}
 ✨ This is a Hugo site. <a href="https://gohugo.io/" target="_blank">Hugo</a> is the world’s fastest framework for building Websites.
@@ -51,3 +49,17 @@ You may also like to see the following <span class="badge badge-primary">posts</
 <p><a href="https://go.avadhoot.me/blog/2021-03-26-how-to-insert-and-edit-the-google-drawing/" target="_blank">How to insert and edit the Google Drawing in Hugo?</a></p>
 <p><a href="https://go.avadhoot.me/blog/2021-01-25-new-blog-post-from-netlify-cms/" target="_blank">How to make a Shortcode for Bootstrap Card in Hugo?</a></p>
 {{</card>}}
+
+{{< fa bath >}}
+<br>
+{{< fa fab github 2x >}}
+
+<i class="fas fa-user-friends"></i>
+
+<i class="far fa-calendar-plus"></i>
+
+<i class="fas fa-stopwatch-20"></i>
+
+<i class="fas fa-hourglass-half"></i>
+
+<i class="fas fa-file-word"></i>

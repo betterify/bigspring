@@ -5,8 +5,7 @@
 
 .alert {
   position: relative;
-  //padding: 1rem 1.5rem;
-  padding: 10px 20px;
+  padding: 1rem 1.5rem;  
   margin-bottom: 0 !important;
   border: 0 solid transparent;
   border-radius: 0;
@@ -17,7 +16,7 @@
 }
 
 .alert *{
-  margin-bottom: 0;
+  margin-bottom: 0;  
 }
 
 .alert-icon {
@@ -81,4 +80,9 @@
 .alert .alert-link:hover,
 .alert .alert-link:focus {
   text-decoration: true;
+}
+
+.alert-dismissible .close {  
+  top: -10px;
+  right: -10px;  
 }

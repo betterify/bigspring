@@ -314,12 +314,12 @@ aside {
   }
 }
 
-  // Post Meta
+// Post Meta
 .post-meta {
     font-size: 13px;
     margin-top: 10px;
     margin-bottom: 15px;
-    margin-left: -20px;
+    margin-left: -25px;
     
     ul {     
       
@@ -341,14 +341,14 @@ aside {
     }
   }
 
-  .post-meta ul li {    
-    background-color: $light;
-    color: #777;
-    height: 2em;    
-    line-height: 2;
-    padding-left: .50em;
-    padding-right: .50em;
-    white-space: nowrap;    
-    border-radius: 4px;
+.post-meta ul li {    
+  background-color: $light;
+  color: #777;
+  height: 2em;    
+  line-height: 2;
+  padding-left: .50em;
+  padding-right: .50em;
+  white-space: nowrap;    
+  border-radius: 4px;
     
-  }
+}

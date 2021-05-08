@@ -18,8 +18,8 @@
             <h2><a href="{{ .Permalink }}" class="post-title">{{ .Title }}</a></h2>
             <div class="post-meta">
               <ul>
-                <li><i class="ti-calendar"></i> {{ .PublishDate.Format "January 2, 2006" }}</li>
-                <li><i class="ti-user"></i>
+                <li><i class="fas fa-calendar-plus"></i> {{ .PublishDate.Format "January 2, 2006" }}</li>
+                <li><i class="fas fa-user"></i>
                   {{ i18n "posted_by" }}
                   {{if site.Params.multi_author}}
                   {{ range $index, $elements:= .Params.Author }}{{ if ne $index 0 }}, {{ end }}<a class="text-primary" href="{{ `author/` | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
@@ -27,15 +27,15 @@
                   <a class="text-primary" href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author }}</a>
                   {{end}}
                 </li>
-                <li><i class="ti-tag"></i> 
+                <li><i class="fas fa-tags"></i> 
                   {{ range $index, $elements:= .Params.Tags }}
                   {{ if ne $index 0 }}, {{ end }}<a href="{{ `tags/` | relLangURL }}{{ . | lower }}">{{ . | humanize }}</a>
                   {{ end }}
                 </li>
-          <li><i class="ti-timer"></i>
+          <li><i class="fas fa-hourglass-half"></i>
           {{ .ReadingTime}} Minutes
           </li>
-          <li><i class="ti-notepad"></i>
+          <li><i class="fas fa-file-word"></i>
           {{ .WordCount}} Words
           </li>
               </ul>
@@ -55,8 +55,8 @@
             <h3><a href="{{ .Permalink }}" class="post-title">{{ .Title }}</a></h3>
             <div class="post-meta">
               <ul>
-                <li><i class="ti-calendar"></i> {{ .PublishDate.Format "January 2, 2006" }}</li>
-                <li><i class="ti-user"></i>
+                <li><i class="fas fa-calendar-plus"></i> {{ .PublishDate.Format "January 2, 2006" }}</li>
+                <li><i class="fas fa-user"></i>
                   {{ i18n "posted_by" }}
                   {{if site.Params.multi_author}}
                   {{ range $index, $elements:= .Params.Author }}{{ if ne $index 0 }}, {{ end }}<a class="text-primary" href="{{ `author/` | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
@@ -64,15 +64,15 @@
                   <a class="text-primary" href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author }}</a>
                   {{end}}
                 </li>
-                <li><i class="ti-tag"></i> 
+                <li><i class="fas fa-tags"></i> 
                   {{ range $index, $elements:= .Params.Tags }}
                   {{ if ne $index 0 }}, {{ end }}<a href="{{ `tags/` | relLangURL }}{{ . | lower }}">{{ . | humanize }}</a>
                   {{ end }}
                 </li>
-          <li><i class="ti-timer"></i>
+          <li><i class="fas fa-hourglass-half"></i>
           {{ .ReadingTime}} Minutes
           </li>
-          <li><i class="ti-notepad"></i>
+          <li><i class="fas fa-file-word"></i>
           {{ .WordCount}} Words
           </li>
               </ul>

@@ -50,16 +50,14 @@ You may also like to see the following <span class="badge badge-primary">posts</
 <p><a href="https://go.avadhoot.me/blog/2021-01-25-new-blog-post-from-netlify-cms/" target="_blank">How to make a Shortcode for Bootstrap Card in Hugo?</a></p>
 {{</card>}}
 
-{{< fa bath >}}
-<br>
-{{< fa fab github 2x >}}
+{{< formkeep 62acb40773f1 >}}
 
-<i class="fas fa-user-friends"></i>
+{{< formkeep 62acb40773f1 "Contact Us" "https://go.avadhoot.me/thanks-we-will-be-in-contact-soon">}}
 
-<i class="far fa-calendar-plus"></i>
+{{< gform src="https://docs.google.com/forms/d/e/1FAIpQLSfUzyVr8WD1sCCTygc6sM-YXHDiFpyjUrtSx7IJWu_eMia-NQ/viewform?embedded=true" >}}
 
-<i class="fas fa-stopwatch-20"></i>
-
-<i class="fas fa-hourglass-half"></i>
-
-<i class="fas fa-file-word"></i>
+{{<card class="shadow" markdownify="true">}}
+### You may like to Subscribe: <span class="badge badge-success">New</span>
+Your feedback is very <span class="badge badge-primary">important</span> to us!!
+{{< formkeep 62acb40773f1 >}}
+{{</card>}}

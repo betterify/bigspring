@@ -1,0 +1,14 @@
+<!-- more info at https://formkeep.com/guides/contact-form-hugo -->
+
+<div class="form-group">
+{{ $id := default "exampletoken" (.Get 0) }}{{ $button_name := default "Submit" (.Get 1) }}{{ $redirect := .Get 2 }}
+<form accept-charset="UTF-8" action="https://formkeep.com/f/{{ $id }}" enctype="multipart/form-data" method="POST">
+  <input type="hidden" name="utf8" value="✓">
+  {{ if $redirect }}<input type="hidden" name="_redirect_url" value="{{ $redirect }}"> {{ end }}
+  <input type="email"  class="form-control" id="inputEmail" name="email" placeholder="name@example.com">
+  <label title="required" for="Message"></label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" name="Message" id="Message" required="required" placeholder="Message (required)" rows="3" style="font-family: WistiaOpenSans, Helvetica, Arial, sans-serif; width: 100%;">
+  </textarea>
+  <button class="btn btn-primary btn-lg mt-2" type="submit">{{ $button_name }}</button>
+</form>
+</div>

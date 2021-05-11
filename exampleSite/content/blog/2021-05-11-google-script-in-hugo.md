@@ -1,16 +1,19 @@
 ---
 layout: blog
-title: Google Script in Hugo
+title: Google Script Embed in Hugo
 date: 2021-05-11T07:05:45.634+00:00
 author: Avadhoot Dandekar
 image: https://lh3.googleusercontent.com/pw/ACtC-3cOx9_Z1woEV1vSCJCCpkQQ9-iY39f1GAYrKzpJ1qyzx2JC4ZSZasKlzHEafR40Lvw0DnJ8nwVwcY2pmqXJP69Wyf6Ls3mgIzlfzHRAf-SKIniJ8mZ-GbEQJ6wToC4yRgOBPNJBSs_WLF9GwMvYBix57g=w800-h500-no
 type: featured
-tags: ["Hugo","Jamstack"]
+tags: ["Hugo","Google", "Script"]
 # meta description
 description: "This is meta description"
 # post draft
 draft: false
 ---
+# Is it possible to embed Google Script in Hugo?
+
+Is it a good idea to see whether Google Script can be embedded in a Hugo site? We all know that Hugo is the fastest framework to build static websites. In this post I am trying embed Google Script in the **Hugo** site!!
 
 {{< rawhtml >}}
 <div>
@@ -21,6 +24,9 @@ draft: false
 }
 #f2dj__table th {
     background: orange;
+    font-size: 12pt;
+    font-weight:bold;
+    color: #fff;
 }
 </style>
 <script src="https://www.google.com/jsapi" type="text/javascript"></script><script type="text/javascript">

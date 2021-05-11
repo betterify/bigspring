@@ -5,7 +5,7 @@ date: 2021-01-25T16:13:44.018Z
 author: Avadhoot Dandekar
 image: https://lh3.googleusercontent.com/pw/ACtC-3cOx9_Z1woEV1vSCJCCpkQQ9-iY39f1GAYrKzpJ1qyzx2JC4ZSZasKlzHEafR40Lvw0DnJ8nwVwcY2pmqXJP69Wyf6Ls3mgIzlfzHRAf-SKIniJ8mZ-GbEQJ6wToC4yRgOBPNJBSs_WLF9GwMvYBix57g=w800-h500-no
 type: featured
-tags: ["Hugo", "Alert", "Google-Docs", "Button", "Card",]
+tags: ["Hugo", "Alert", "Docs", "Button", "Card",]
 # meta description
 description: "This is meta description"
 # post draft
@@ -56,8 +56,50 @@ You may also like to see the following <span class="badge badge-primary">posts</
 
 {{< gform src="https://docs.google.com/forms/d/e/1FAIpQLSfUzyVr8WD1sCCTygc6sM-YXHDiFpyjUrtSx7IJWu_eMia-NQ/viewform?embedded=true" >}}
 
+{{< formkeep f089beb9b3ab >}}
+
+{{< rawhtml >}}
+<!-- Beginning of Google Form HTML -->
 {{<card class="shadow" markdownify="true">}}
-### You may like to Subscribe: <span class="badge badge-success">New</span>
+### You may like to Message: <span class="badge badge-success">New</span>
 Your feedback is very <span class="badge badge-primary">important</span> to us!!
-{{< formkeep 62acb40773f1 >}}
+<div class="form-group">
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+onload="if(submitted) {window.location='/blog/thankyou';}"></iframe>
+<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfUzyVr8WD1sCCTygc6sM-YXHDiFpyjUrtSx7IJWu_eMia-NQ/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+    <label>Full Name:</label>
+    <input type="text" class="form-control" placeholder="Name (Required)" name="entry.2262242" required>
+    <label>Email Address:</label>
+    <input type="email" class="form-control" placeholder="Email Address (Required)" name="entry.2159917" required> 
+    <label>Message or Feedback:</label>
+    <textarea rows="5" class="form-control" placeholder="Message (Required)" name="entry.2898603" required></textarea>
+    <button class="btn btn-primary btn-lg mt-2" type="submit" >Submit</button>     
+</form>
+</div>
 {{</card>}}
+<!-- End of Google Form HTML -->
+{{< /rawhtml >}}
+
+{{< formkeep2 f089beb9b3ab >}}
+
+{{< rawhtml >}}
+<!-- Beginning of Formkeep Form HTML -->
+{{<card class="shadow" markdownify="true">}}
+### You may like to Message: <span class="badge badge-success">New</span>
+Your feedback is very <span class="badge badge-primary">important</span> to us!!
+<div class="form-group">  
+  <form accept-charset="UTF-8" action="https://formkeep.com/f/f089beb9b3ab" enctype="multipart/form-data" method="POST">
+    <input type="hidden" name="utf8" value="&#x2713;">
+    <fieldset style="border: 0px">    
+    <label title="required" for="Email">Email Address:</label>
+    <input type="email"  class="form-control" id="inputEmail" name="email" required="required" placeholder="name@example.com" style="font-family: WistiaOpenSans, Helvetica, Arial, sans-serif; line-height: 36px; font-size: 16px;">
+    <label title="required" for="Message">Message or Feedback:</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" name="Message" id="Message" required="required" placeholder="Message (required)" rows="3" style="font-family: WistiaOpenSans, Helvetica, Arial, sans-serif; line-height: 36px; font-size: 16px; width: 100%;"></textarea>
+    <button class="btn btn-primary btn-lg mt-2" type="submit" value="Submit" data-disable-with="Submit">Submit</button>
+  </form>
+    </fieldset>
+</div>
+{{</card>}}
+<!-- End of Formkeep Form HTML -->
+{{< /rawhtml >}}

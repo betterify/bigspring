@@ -56,14 +56,7 @@ if (response.isError()) {
       visualization = new google.visualization.Table(document.getElementById('f2dj__table'));
       visualization.draw(data, null);      
 
-
-   // Apply a number formatter to the 2nd column.
-   // var table = new google.visualization.Table(document.getElementById('f1dj__table'));
-
-   // var formatter = new google.visualization.ArrowFormat();
-    // formatter.format(data, 3); // Apply formatter to 4th column
-
-    // table.draw(data, {allowHtml: true, showRowNumber: true});
+   // Apply a number formatter to the 2nd column.   
 
      var table = new google.visualization.Table(document.getElementById('f2dj__table'));
 
@@ -72,19 +65,8 @@ if (response.isError()) {
      formatter.addRange(0, 20000, 'white', '#27ae60');
      formatter.format(data, 3); // Apply formatter to second column
 
-   //var formatter = new google.visualization.ColorFormat();
-   //formatter.addRange(-20000, -0, 'white', '#e74c3c');
-   //formatter.addRange(0, 20000, 'white', '#e74c3c');
-   //formatter.format(data, 8); // Apply formatter to second column
-
-   //var formatter = new google.visualization.ColorFormat();
-   //formatter.addRange(-20000, -0, 'white', '#2980b9');
-   //formatter.addRange(0, 20000, 'white', '#2980b9');
-   //formatter.format(data, 8); // Apply formatter to second column
-
      table.draw(data, {allowHtml: true, showRowNumber: true, width:'100%', height:'100%' });
 }     
-
 google.setOnLoadCallback(f2dj_getData)
 </script>
 <div id="f2dj__table">
@@ -92,8 +74,10 @@ google.setOnLoadCallback(f2dj_getData)
 <!-- END: f1dj Google Spreadsheet/viz api table insert --></div>
 {{< /rawhtml >}}
 
+## Jfiddle Shortcode Example
+
 {{< jsfiddle "avadhoot/6uqxs5w3" >}}
 
-{{< gscript src="https://script.google.com/macros/s/AKfycbxrTUsBHBh4aYyy9jzKQHL9Ke1HDTV1jn1qceo9_FB3yxlFZzjfysWA/exec" >}}
+## Google Script Shortcode Example
 
-<iframe src="https://script.google.com/macros/s/AKfycbxrTUsBHBh4aYyy9jzKQHL9Ke1HDTV1jn1qceo9_FB3yxlFZzjfysWA/exec" style="border: 1px #ccc;" height="400px" width="100%" allowfullscreen></iframe>
+{{< gscript src="https://script.google.com/macros/s/AKfycbxrTUsBHBh4aYyy9jzKQHL9Ke1HDTV1jn1qceo9_FB3yxlFZzjfysWA/exec" >}}

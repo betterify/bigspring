@@ -11,9 +11,13 @@ description: "This is meta description"
 # post draft
 draft: false
 ---
+
+This post demonstrates the embedding of Google Script in Hugo site.
 # Is it possible to embed Google Script in Hugo?
 
 Is it a good idea to see whether Google Script can be embedded in a Hugo site? We all know that Hugo is the fastest framework to build static websites. In this post I am trying embed Google Script in the **Hugo** site!!
+
+## Google Script Example
 
 {{< rawhtml >}}
 <div>
@@ -87,3 +91,9 @@ google.setOnLoadCallback(f2dj_getData)
 </div>
 <!-- END: f1dj Google Spreadsheet/viz api table insert --></div>
 {{< /rawhtml >}}
+
+{{< jsfiddle "avadhoot/6uqxs5w3" >}}
+
+{{< gscript src="https://script.google.com/macros/s/AKfycbxrTUsBHBh4aYyy9jzKQHL9Ke1HDTV1jn1qceo9_FB3yxlFZzjfysWA/exec" >}}
+
+<iframe src="https://script.google.com/macros/s/AKfycbxrTUsBHBh4aYyy9jzKQHL9Ke1HDTV1jn1qceo9_FB3yxlFZzjfysWA/exec" style="border: 1px #ccc;" height="400px" width="100%" allowfullscreen></iframe>

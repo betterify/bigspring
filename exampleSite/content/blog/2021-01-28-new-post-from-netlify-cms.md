@@ -18,11 +18,7 @@ draft: false
 
 {{< gdatastudio src="https://datastudio.google.com/embed/reporting/1httI14Yytc3Eq2aEdgkTvb0gVyqFlfYs/page/4IMq" >}}
 
-{{<card class="shadow" markdownify="true">}}
-### You may like to Subscribe: <span class="badge badge-success">New</span>
-Your feedback is very <span class="badge badge-primary">important</span> to us!!
 {{< formkeep f089beb9b3ab >}}
-{{</card>}}
 
 {{< rawhtml >}}
 <!-- Beginning of Google Form HTML -->
@@ -44,4 +40,41 @@ onload="if(submitted) {window.location='/blog/thankyou';}"></iframe>
 </form>
 </div>
 {{</card>}}
+{{< /rawhtml >}}
+
+{{< rawhtml >}}
+<!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#edf6f5; clear:left; font:14px Helvetica,Arial,sans-serif; }
+    #mc_embed_signup input{border: solid 0px #0aa8a7;} 
+    #mc_embed_signup input.button{background: #007c89; box-shadow: 5px 5px #ccc;}
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div class="card shadow">
+<div class="card-body mb-0 mt-2">
+<div id="mc_embed_signup">
+<form action="https://gmail.us1.list-manage.com/subscribe/post?u=b33049064bcf732649ac9ac4a&amp;id=a5c7c78972" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Subscribe <span class="badge badge-success">New</span></h2>
+    <p>We grow with your <span class="badge badge-primary">Subscription!!</span></p>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" class="form-control" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b33049064bcf732649ac9ac4a_a5c7c78972" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn-primary btn-lg"></div>
+    </div>
+</form>
+</div>
+</div>
+</div>
+<!--End mc_embed_signup-->
 {{< /rawhtml >}}

@@ -18,8 +18,8 @@
             <h2><a href="{{ .Permalink }}" class="post-title">{{ .Title }}</a></h2>
             <div class="post-meta">
               <ul>
-                <li><i class="fas fa-calendar-plus"></i> {{ .PublishDate.Format "January 2, 2006" }}</li>
-                <li><i class="fas fa-user"></i>
+                <li><i class="bi bi-calendar-date-fill"></i> {{ .PublishDate.Format "January 2, 2006" }}</li>
+                <li><i class="bi bi-people-fill"></i>
                   {{ i18n "posted_by" }}
                   {{if site.Params.multi_author}}
                   {{ range $index, $elements:= .Params.Author }}{{ if ne $index 0 }}, {{ end }}<a class="text-primary" href="{{ `author/` | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
@@ -27,15 +27,15 @@
                   <a class="text-primary" href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author }}</a>
                   {{end}}
                 </li>
-                <li><i class="fas fa-tags"></i> 
+                <li><i class="bi bi-tags-fill"></i> 
                   {{ range $index, $elements:= .Params.Tags }}
                   {{ if ne $index 0 }}, {{ end }}<a href="{{ `tags/` | relLangURL }}{{ . | lower }}">{{ . | humanize }}</a>
                   {{ end }}
                 </li>
-          <li><i class="fas fa-hourglass-half"></i>
+          <li><i class="bi bi-hourglass-split"></i>
           {{ .ReadingTime}} Minutes
           </li>
-          <li><i class="fas fa-file-word"></i>
+          <li><i class="bi bi-file-earmark-word-fill"></i>
           {{ .WordCount}} Words
           </li>
               </ul>
@@ -55,8 +55,8 @@
             <h3><a href="{{ .Permalink }}" class="post-title">{{ .Title }}</a></h3>
             <div class="post-meta">
               <ul>
-                <li><i class="fas fa-calendar-plus"></i> {{ .PublishDate.Format "January 2, 2006" }}</li>
-                <li><i class="fas fa-user"></i>
+                <li><i class="bi bi-calendar-date-fill"></i> {{ .PublishDate.Format "January 2, 2006" }}</li>
+                <li><i class="bi bi-people-fill"></i>
                   {{ i18n "posted_by" }}
                   {{if site.Params.multi_author}}
                   {{ range $index, $elements:= .Params.Author }}{{ if ne $index 0 }}, {{ end }}<a class="text-primary" href="{{ `author/` | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
@@ -64,15 +64,15 @@
                   <a class="text-primary" href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author }}</a>
                   {{end}}
                 </li>
-                <li><i class="fas fa-tags"></i> 
+                <li><i class="bi bi-tags-fill"></i> 
                   {{ range $index, $elements:= .Params.Tags }}
                   {{ if ne $index 0 }}, {{ end }}<a href="{{ `tags/` | relLangURL }}{{ . | lower }}">{{ . | humanize }}</a>
                   {{ end }}
                 </li>
-          <li><i class="fas fa-hourglass-half"></i>
+          <li><i class="bi bi-hourglass-split"></i>
           {{ .ReadingTime}} Minutes
           </li>
-          <li><i class="fas fa-file-word"></i>
+          <li><i class="bi bi-file-earmark-word-fill"></i>
           {{ .WordCount}} Words
           </li>
               </ul>

@@ -1,12 +1,11 @@
 {
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.3",
     "atomic-algolia": "^0.3.19",
     "bootstrap": "^5.0.0-beta3",
-    "bootstrap-icons": "^1.4.1",
-    "hugo-lunr": "^0.0.4"
+    "bootstrap-icons": "^1.4.1"
   },
   "scripts": {
     "index": "hugo-lunr"
-  }
+  },
+  "name": "bigspring"
 }

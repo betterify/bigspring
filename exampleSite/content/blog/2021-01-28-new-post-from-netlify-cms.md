@@ -53,7 +53,7 @@ onload="if(submitted) {window.location='/blog/thankyou';}"></iframe>
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 <div class="card shadow">
-<div class="card-body mb-0 mt-2">
+
 <div id="mc_embed_signup">
 <form action="https://gmail.us1.list-manage.com/subscribe/post?u=b33049064bcf732649ac9ac4a&amp;id=a5c7c78972" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
@@ -75,6 +75,10 @@ onload="if(submitted) {window.location='/blog/thankyou';}"></iframe>
 </form>
 </div>
 </div>
-</div>
+
 <!--End mc_embed_signup-->
 {{< /rawhtml >}}
+
+<i class="bi-alarm"></i>
+
+<i class="bi-alarm" style="font-size: 2rem; color: #0aa8a7;"></i>

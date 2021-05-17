@@ -1,5 +1,5 @@
 <!-- more info at https://formkeep.com/guides/contact-form-hugo -->
-<div class="card feature-card">  
+<div class="card shadow">  
 <div class="form-group">
   {{ $id := default "exampletoken" (.Get 0) }}{{ $button_name := default "Submit" (.Get 1) }}{{ $redirect := .Get 2 }}
   <form accept-charset="UTF-8" action="https://formkeep.com/f/{{ $id }}" enctype="multipart/form-data" method="POST">

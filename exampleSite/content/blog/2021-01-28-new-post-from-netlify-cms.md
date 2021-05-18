@@ -75,10 +75,5 @@ onload="if(submitted) {window.location='/blog/thankyou';}"></iframe>
 </form>
 </div>
 </div>
-
 <!--End mc_embed_signup-->
 {{< /rawhtml >}}
-
-<i class="bi-alarm"></i>
-
-<i class="bi-alarm" style="font-size: 2rem; color: #0aa8a7;"></i>

@@ -1,6 +1,8 @@
 baseURL = "https://bigspring.netlify.app/"
 disqusShortname = "avadhoot"
 googleAnalytics = ""
+# multi-author support (if set to true, you must use an Array in the author field)
+multi_author = false
 languageCode = "en-us"
 languageName = "En"
 paginate = "3"

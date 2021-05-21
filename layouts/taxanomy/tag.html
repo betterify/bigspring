@@ -8,7 +8,7 @@
   </ul> -->
 
 <ul>
-  <li><i class="ion-pricetags"></i> 
+  <li><i class="bi bi-tags-fill"></i> 
     {{ range $index, $elements:= .Params.Tags }}
     {{ if ne $index 0 }}, {{ end }}<a href="{{ `tags/` | relLangURL }}{{ . | lower }}">{{ . | humanize }}</a>
                     {{ end }}

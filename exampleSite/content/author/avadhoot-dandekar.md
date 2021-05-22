@@ -1,6 +1,6 @@
 ---
-title: "Avadhoot Dandekar"
-email: "avadhoot@bettermanagenow.com"
+title: Avadhoot Dandekar
+email: avadhoot.dandekar@gmail.com
 image: /images/cta.svg
 draft: false
 social:

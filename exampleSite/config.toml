@@ -74,6 +74,8 @@ footer_menu_middle = "Services"
 footer_menu_right = "Support"
 logo = "images/logo.svg"
 logo_width = "200px"
+email = "avadhoot.dandekar@gmail.com"
+Photo = "/images/cta.svg"
 [params.navigation_button]
 enable = true
 label = "Get Started"
@@ -121,3 +123,4 @@ title = "GitHub"
 [taxonomies]
   
   tag = "tags"
+

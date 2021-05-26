@@ -10,6 +10,7 @@ tags: ["Hugo","Jamstack"]
 description: "This is meta description"
 # post draft
 draft: false
+
 ---
 
 <p><span class="firstcharacter">T</span>his is a new post from Netlify CMS. Netlify is an intuitive Git-based workflow and powerful serverless platform to build, deploy, and collaborate on web apps. Netlify is a San Francisco-based cloud computing company that offers hosting and serverless backend services for web applications and static websites. The company provides hosting for websites whose source files are stored in the version control system Git and then generated into static web content files[b 1] served via a Content Delivery Network.</p>

@@ -330,12 +330,13 @@ aside {
     ul {     
       background-color: $light;
       border-radius: 5px;
+      padding-inline-start: 15px;
       li {
         display: inline-block;
         color: #777;
         margin-right: 5px;
         font-size: 12px;       
-
+        
         a {
           color: #777;          
           font-size: 12px;
@@ -357,7 +358,8 @@ aside {
   padding-right: .50em;
   white-space: nowrap;    
   //border-radius: 4px;
-    
+  //margin-left: -25px;
+  
 }
 
 .alert-dismissible {
@@ -386,4 +388,10 @@ aside {
   background-color: $primary-color;
   margin: 0.1em 0.1em 0.1em 0;
   padding: 0.1em;
+}
+
+// Shareaholic Social Share
+.shareaholic-follow-buttons-container.shareaholic-center-align .shareaholic-share-buttons-heading {
+  //text-align: center !important;
+  margin-bottom: auto;
 }

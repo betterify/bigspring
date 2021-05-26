@@ -120,7 +120,5 @@ title = "GitHub"
     endLevel = 5
     ordered = false
 
-[taxonomies]
-  
+[taxonomies]  
   tag = "tags"
-

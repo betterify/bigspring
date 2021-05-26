@@ -1,5 +1,5 @@
 ---
-title: Avadhoot Dandekar
+title: Avadhoot Dandekar 😃
 email: avadhoot.dandekar@gmail.com
 image: /images/cta.svg
 draft: false
@@ -12,8 +12,7 @@ social:
     link : "#"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet.
-Donec nisi dolor, consequat vel pretium id, auctor in dui. Nam iaculis, neque ac ullamcorper.
+👋 Hello, I am Avadhoot Dandekar. I keep interest in exploring new technologies for building the modern web. I built this website on Hugo and deployed on Netlify. I am not a techie, I am not a nerd. I am very new to web development. I am learning coding and programming. This is my first static website. I am just very new to coding and programming. ```Jamstack``` is a new standard architecture for building modern websites. There are some 400+ Static Site Generators (SSGs) that follow this architecture. I basically tried my hands on three of the bests - Hugo, Gatsby, and Ember. They all have their own specialities.  
 
 {{< rawhtml >}}
 <!-- Beginning of Google Form HTML -->
